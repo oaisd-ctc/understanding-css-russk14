@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(138, 213, 35);
+}
+
+h1 {
+    color: blue;
+    padding: 10px;
+    font-style: oblique;
+    font-variant-caps: titling-caps;
+}
+
+h2 {
+    letter-spacing: 5px;
+}
+
+li {
+    font-size: 100px;
+    color: red;
+    list-style-type: square;
+    border: 3px solid blue;
+}
+
+div {
+    border-block: 5px solid silver;
+    border-block-style: dashed dotted;
+    opacity: 0.75;
+}
+
+#first_one {
+    color: purple;
+    font-size: 30px;
+}
+
+.placeholder {
+    font-size: 40px;
+    font-family: "Journal";
+    text-align: center;
+    line-height: 25%;
+}
+
+.quotes {
+    font-family: "Hashtag";
+    font-size: 45px;
+}
+
+
+
+@font-face {
+    font-family: "Journal";
+    src: url('../font/JOURNAL.TTF');
+}
+
+@font-face {
+    font-family: "Hashtag";
+    src: url("../font/Hashtag.ttf")
+}
